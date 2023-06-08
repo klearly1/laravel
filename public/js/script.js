@@ -9,7 +9,7 @@
 
 	// navfixed
 	$(window).scroll(function () {
-		if ($('.navigation').offset().top > 50) {
+		if ($('.navigation').offset().top > 30) {
 			$('.navigation').addClass('nav-bg');
 		} else {
 			$('.navigation').removeClass('nav-bg');

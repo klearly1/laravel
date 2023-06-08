@@ -37,7 +37,24 @@ class MainController extends Controller
 
         switch($mode) {
 
-            case '123':
+            case 'login':
+
+
+                $header = view('/include.header', $this->headerdata);
+                $body = view('login', $this->bodydata);
+                $footer = view('/include.footer', $this->footerdata);
+
+                return $header . $body . $footer;
+
+            case 'join':
+
+
+                $header = view('/include.header', $this->headerdata);
+                $body = view('join', $this->bodydata);
+                $footer = view('/include.footer', $this->footerdata);
+
+                return $header . $body . $footer;
+
 
                 break;
 

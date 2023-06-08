@@ -14,31 +14,45 @@
     <!-- ** Plugins Needed for the Project ** -->
     <!-- plugins -->
     <link rel="stylesheet" href="/js/plugins/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="/js/plugins/themify-icons/themify-icons.css">
     <!-- Main Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/common.css" rel="stylesheet">
+
+    <link href="/css/animate.css" rel="stylesheet">
 
     <!--Favicon-->
     <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/image/favicon.ico" type="image/x-icon">
 
+    <!-- 이미지 로딩 시키기 -->
+    <link rel="preload" href="/image/main-bg.jpg" as="image">
+
+    <!-- 제이쿼리 -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- bootstrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
 </head>
 
 <body>
-<header class="sticky-top navigation">
+<header class="sticky-top navigation nav-bg">
     <div class=container>
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class=navbar-brand href="index.html"><img class="img-fluid" src="/image/logo.png" alt="godocs"></a>
+            <a class=navbar-brand href="/">
+                <img class="img-fluid" src="/image/main_logo.png" alt="godocs">
+            </a>
             <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
                 <i class="ti-align-right h4 text-dark"></i></button>
             <div class="collapse navbar-collapse text-center" id=navigation>
                 <ul class="navbar-nav mx-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="list.html">Inner Page</a></li>
-                    <li class="nav-item"><a class="nav-link" href="search.html">Search Page</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="list.html">지역별 여행정보</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="index.html">Now & New</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">게시판</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">현지구인</a></li>
                 </ul>
-                <a href="changelog.html" class="btn btn-sm btn-outline-primary ml-lg-4">changelog</a>
-                <a href="contact.html" class="btn btn-sm btn-primary ml-lg-4">contact</a>
+                <a href="/member/join" class="btn btn-sm btn-light border ml-lg-4">회원가입</a>
+                <a href="/member/login" class="btn btn-sm btn-primary ml-lg-4">로그인</a>
             </div>
         </nav>
     </div>

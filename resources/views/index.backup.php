@@ -1,91 +1,70 @@
 <!-- banner -->
-<section class="section py-0 mainbgsection position-relative" id="mainbgsection">
-    <div class="w-100" data-animate="" >
-        <div class="w-100 position-relative">
-            <div class="w-65 font-weight-bold text-left d-flex mx-auto" style="z-index: 100;flex-direction: column;position: relative;height: calc(60em - 7em);justify-content: center;">
-                <p class="color-FFFFFF font-size-67 font-weight-bold py-3">あなたの</p>
-                <p class="color-FFFFFF font-size-67 font-weight-bold py-3">日本情報プラットフォーム</p>
-                <p class="color-FFFFFF font-size-67 font-weight-bold py-3">日本ガイド</p>
-            </div>
-        </div>
+<section class="section pb-0">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-7 text-center text-lg-left">
+        <h1 class="mb-4">Documentation Theme By Themefisher Team</h1>
+        <p class="mb-4">Lorem ipsum dolor amet, consetetur sadiffspscing elitr, diam nonumy invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua At.</p>
+        <form class="search-wrapper" action="search.html">
+          <input id="search-by" name="s" type="search" class="form-control form-control-lg"
+            placeholder="Search Here...">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      <div class="col-lg-4 d-lg-block d-none">
+        <img src="image/banner.jpg" alt="illustration" class="img-fluid">
+      </div>
     </div>
+  </div>
 </section>
 <!-- /banner -->
 
 <!-- topics -->
 <section class="section pb-0">
   <div class="container">
-    <h2 class="section-title">일본 즐기기</h2>
+    <h2 class="section-title">Browse Your Topics</h2>
     <div class="row">
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img srcset="https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_960_720.jpg 1x, https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_1280.jpg" alt="회, 일본어, 아시아 사람, 음식, 날것의, 생선회, 신선한, 롤, 요리">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">먹거리&맛집</h3>
+            <i class="card-icon ti-panel mb-4"></i>
+            <h3 class="card-title h4">Basic Startup</h3>
+            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+            <a href="list.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img src="https://cdn.pixabay.com/photo/2015/04/16/15/22/ginza-725794_1280.jpg" alt="긴자, 와코, 도쿄, 건축물, 아시아 사람, 파란색, 밝은, 건물" >
           <div class="card-body">
-            <h3 class="card-title h4 text-center">쇼핑</h3>
+            <i class="card-icon ti-credit-card mb-4"></i>
+            <h3 class="card-title h4">Account Bill</h3>
+            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+            <a href="list.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img srcset="https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_960_720.jpg 1x, https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg" alt="산, 화산, 정점, 정상 회담, 한 지방, 구름의 바다, 경치, 풍경화">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">자연</h3>
+            <i class="card-icon ti-package mb-4"></i>
+            <h3 class="card-title h4">Our Features</h3>
+            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+            <a href="list.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img srcset="https://cdn.pixabay.com/photo/2020/09/14/22/27/river-5572289_960_720.jpg 1x, https://cdn.pixabay.com/photo/2020/09/14/22/27/river-5572289_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2020/09/14/22/27/river-5572289_1280.jpg" alt="강, 건물, 도시, 도시의, 사무실 건물, 비즈니스 빌딩, 목적지">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">관광명소</h3>
-          </div>
-        </div>
-      </div>
-      <!-- topic -->
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="card match-height">
-        <img src="https://cdn.pixabay.com/photo/2016/05/02/09/45/japan-1366872_640.jpg" srcset="https://cdn.pixabay.com/photo/2016/05/02/09/45/japan-1366872_640.jpg 1x, https://cdn.pixabay.com/photo/2016/05/02/09/45/japan-1366872_1280.jpg 2x" alt="일본, 온천, 여관, 야마가타, 긴잔, 겨울, 불, 야경, 건물, 이전" >
-          <div class="card-body">
-            <h3 class="card-title h4 text-center">온천&대중목욕탕</h3>
-          </div>
-        </div>
-      </div>
-      <!-- topic -->
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="card match-height">
-        <img srcset="https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_960_720.jpg 1x, https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_1280.jpg" alt="트, Japan, 맥주, 제">
-          <div class="card-body">
-            <h3 class="card-title h4 text-center">나이트라이프</h3>
-          </div>
-        </div>
-      </div>
-      <!-- topic -->
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="card match-height">
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/11/34/shinto-shrine-gates-1869216_1280.jpg" alt="신사 문, 도리 터널, 길, 후 시미이 나리 타이 샤, 나무텍스쳐, 통로" >
-          <div class="card-body">
-            <h3 class="card-title h4 text-center">아트&디자인</h3>
-          </div>
-        </div>
-      </div>
-      <!-- topic -->
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_640.jpg" srcset="https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_640.jpg 1x, https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_1280.jpg 2x" alt="절, 탑, 일본어, 일본, 역사적인, 고대의, 건물, 전통적인, 건축물">
-        <div class="card match-height">
-          <div class="card-body">
-            <h3 class="card-title h4 text-center">문화</h3>
+            <i class="card-icon ti-settings mb-4"></i>
+            <h3 class="card-title h4">Theme Facility</h3>
+            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+            <a href="list.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
@@ -188,25 +167,3 @@
     </div>
   </div>
 </section>
-
-<script>
-window.onload = function() {
-  var myDiv = document.getElementById('mainbgsection');
-  var imageUrl = '/image/main-bg.jpg'; // 로딩할 이미지 URL
-  var img = new Image();
-  img.onload = function() {
-    myDiv.style.backgroundImage = 'url(' + imageUrl + ')'; // 로딩이 완료된 후 배경 이미지 설정
-  };
-  img.src = imageUrl; // 이미지 로딩 시작
-};
-</script>
-<style>
-.mainbgsection {
-    background-image: url(/image/main-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: calc(60em - 7em);
-}
-
-</style>
