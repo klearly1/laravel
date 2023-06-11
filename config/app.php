@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://port-9000-laravel-7xwyjq992lliizhoxn.sel4.cloudtype.app/'),
 
     'asset_url' => env('ASSET_URL'),
 
