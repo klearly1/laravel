@@ -65,27 +65,27 @@
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img srcset="https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_960_720.jpg 1x, https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2020/04/01/09/23/oktoberfest-4990540_1280.jpg" alt="트, Japan, 맥주, 제">
+        <img srcset="https://cdn.pixabay.com/photo/2014/09/16/16/24/cruise-ship-448444_960_720.jpg 1x, https://cdn.pixabay.com/photo/2014/09/16/16/24/cruise-ship-448444_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2014/09/16/16/24/cruise-ship-448444_1280.jpg" alt="크루즈 선박, 밤, 일본, 고베, 아시아, 건축물, 보다, 도시 풍경">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">나이트라이프</h3>
+            <h3 class="card-title h4 text-center">숙소정보</h3>
           </div>
         </div>
       </div>
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card match-height">
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/11/34/shinto-shrine-gates-1869216_1280.jpg" alt="신사 문, 도리 터널, 길, 후 시미이 나리 타이 샤, 나무텍스쳐, 통로" >
+        <img src="https://cdn.pixabay.com/photo/2020/01/11/15/08/fantastic-4757800_640.jpg" srcset="https://cdn.pixabay.com/photo/2020/01/11/15/08/fantastic-4757800_640.jpg 1x, https://cdn.pixabay.com/photo/2020/01/11/15/08/fantastic-4757800_1280.jpg 2x" alt="환상적인, 램프, 램프 숲, 일본, 오다이바">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">아트&디자인</h3>
+            <h3 class="card-title h4 text-center">전시회</h3>
           </div>
         </div>
       </div>
       <!-- topic -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_640.jpg" srcset="https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_640.jpg 1x, https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_1280.jpg 2x" alt="절, 탑, 일본어, 일본, 역사적인, 고대의, 건물, 전통적인, 건축물">
+      <img src="https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_640.jpg" srcset="https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_640.jpg 1x, https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_1280.jpg 2x" data-lazy-srcset="https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_640.jpg 1x, https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_1280.jpg 2x" data-lazy-src="https://cdn.pixabay.com/photo/2018/11/25/08/39/kyoto-3836977_640.jpg" alt="교토, 기온 축제, 축하, 오락, 여름, 일본">
         <div class="card match-height">
           <div class="card-body">
-            <h3 class="card-title h4 text-center">문화</h3>
+            <h3 class="card-title h4 text-center">축제</h3>
           </div>
         </div>
       </div>

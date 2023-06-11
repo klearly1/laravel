@@ -40,19 +40,23 @@
     <div class=container>
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <a class=navbar-brand href="/">
-                <img class="img-fluid" src="/image/main_logo.png" alt="godocs">
+                <img class="img-fluid" src="/image/main_logo_61A9ED.png" alt="godocs">
             </a>
             <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
                 <i class="ti-align-right h4 text-dark"></i></button>
-            <div class="collapse navbar-collapse text-center" id=navigation>
+            <div class="collapse navbar-collapse text-center" id="navigation">
                 <ul class="navbar-nav mx-auto align-items-center">
                     <li class="nav-item"><a class="nav-link font-weight-bold" href="list.html">지역별 여행정보</a></li>
                     <li class="nav-item"><a class="nav-link font-weight-bold" href="index.html">Now & New</a></li>
-                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">게시판</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">자유게시판</a></li>
                     <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">현지구인</a></li>
                 </ul>
                 <a href="/member/join" class="btn btn-sm btn-light border ml-lg-4">회원가입</a>
-                <a href="/member/login" class="btn btn-sm btn-primary ml-lg-4">로그인</a>
+                @if (!empty($current_user))
+                    <button class="btn btn-sm btn-primary ml-lg-4" id="logout" onclick="logout();">로그아웃</button>
+                @else
+                    <a href="/member/login" class="btn btn-sm btn-primary ml-lg-4">로그인</a>
+                @endif
             </div>
         </nav>
     </div>

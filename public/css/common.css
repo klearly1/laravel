@@ -573,3 +573,19 @@
 .font-size-100 {
   font-size: 100px!important;
 }
+
+
+.categorybtn button {
+    border-radius: 16px;
+    border: 0px;
+    color: #5D5D5D;
+    padding: 7px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 8.75vw;
+    font-size: 17px;
+}
+.btn-61A9ED {
+    background-color: #61A9ED;
+    color: #FFF!important;
+}
