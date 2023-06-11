@@ -140,17 +140,11 @@ class MainController extends Controller
 
             default: //list
 
+                $this->bodydata['page_name'] = '구인구직';
 
                 $header = view('/include.header', $this->headerdata);
                 $body = view('job', $this->bodydata);
                 $footer = view('/include.footer', $this->footerdata);
-
-                // $posts = Post::paginate(20);
-                // $categories = Category::all();
-
-                // return view('posts.index', compact('posts', 'categories'));
-
-
 
                 return $header . $body . $footer;
 

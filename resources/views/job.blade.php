@@ -5,16 +5,6 @@
     <div class="row"> 
         <div class="w-100 text-left py-3">
             <?
-                foreach($topics as $topic) {
-            ?>
-            <a class="btn btn-outline-secondary py-1"><?=$topic?></a>
-            <?
-                }
-            ?>
-        </div>
-
-        <div class="w-100 text-left py-3">
-            <?
                 if(!empty($page_name)) {
             ?>
             <h3><?=$page_name?></h3>
@@ -26,7 +16,6 @@
             }
             ?>
         </div>
-
       <!-- Forum posts --> 
       <div class="col-md-12 p-0"> 
  
@@ -56,7 +45,6 @@
         <div class="position-relative mb-3 float-right">
             <a href="/board/write" class="btn btn-primary btn-lg">글 작성</a>
         </div> 
-
         <!-- Pagination --> 
         <nav aria-label="Page navigation example" class="w-30 mx-auto"> 
           <ul class="pagination"> 

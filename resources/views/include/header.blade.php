@@ -48,8 +48,8 @@
                 <ul class="navbar-nav mx-auto align-items-center">
                     <li class="nav-item"><a class="nav-link font-weight-bold" href="list.html">지역별 여행정보</a></li>
                     <li class="nav-item"><a class="nav-link font-weight-bold" href="index.html">Now & New</a></li>
-                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">자유게시판</a></li>
-                    <li class="nav-item"><a class="nav-link font-weight-bold" href="search.html">현지구인</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="/board">자유게시판</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="/job">현지구인</a></li>
                 </ul>
                 <a href="/member/join" class="btn btn-sm btn-light border ml-lg-4">회원가입</a>
                 @if (!empty($current_user))
